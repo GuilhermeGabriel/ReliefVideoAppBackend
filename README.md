@@ -6,6 +6,10 @@ Backend for [ReliefVideoAppFrontend](https://github.com/GuilhermeGabriel/ReliefV
 ## Installation
 
 ```bash
+# Versions used
+#node v18.16.0
+#npm 9.5.1
+
 $ npm install
 ```
 
