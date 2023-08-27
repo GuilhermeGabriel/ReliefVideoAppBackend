@@ -1,7 +1,5 @@
 
-## Description
-
-Backend for [ReliefVideoAppFrontend](https://github.com/GuilhermeGabriel/ReliefVideoAppFrontEnd)
+## Backend for [ReliefVideoAppFrontend](https://github.com/GuilhermeGabriel/ReliefVideoAppFrontEnd)
 
 ## Installation
 
