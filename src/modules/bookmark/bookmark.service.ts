@@ -61,6 +61,8 @@ export class BookmarkService {
   }
 
   async findAll() {
-    return await this.prisma.bookmark.findMany();;
+    const bookmark = await this.prisma.bookmark.findMany();
+    const urls = bookmark.map(item => item.url);
+    return urls;
   }
 }

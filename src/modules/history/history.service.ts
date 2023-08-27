@@ -23,7 +23,7 @@ export class HistoryService {
       data
     });
 
-    return history;
+    return history
   }
 
   async delete(data: HistoryDTO) {
@@ -59,10 +59,12 @@ export class HistoryService {
       }
     });
 
-    return history;
+    return history
   }
 
   async findAll() {
-    return await this.prisma.history.findMany();;
+    const history = await this.prisma.history.findMany();
+    const urls = history.map(item => item.url);
+    return urls;
   }
 }
