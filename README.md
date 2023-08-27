@@ -1,7 +1,7 @@
 
 ## Description
 
-[ReliefVideoApp](https://github.com/GuilhermeGabriel/ReliefVideoAppFrontEnd) Backend for ReliefVideoAppFrontend
+Backend for [ReliefVideoAppFrontend](https://github.com/GuilhermeGabriel/ReliefVideoAppFrontEnd)
 
 ## Installation
 
@@ -21,4 +21,11 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+Technologies used: 
+
+- NestJs
+- NodeJs
+- Prisma
+- Sqlite
+
 Author - [Guilherme Gabriel](https://www.linkedin.com/in/guilhermegabr/)
