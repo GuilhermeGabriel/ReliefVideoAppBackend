@@ -15,7 +15,7 @@ $ npm install
 ## Running the app
 
 ```bash
-# start
+# start (http://localhost:8000/)
 $ npm run start
 
 # watch mode
